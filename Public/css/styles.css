@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    /* Paleta de colores */
+    --primaryAmarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+    /* Tipografía */
+    --familia: 'Roboto';
+    /* Tamaños Tipográficos */
+    --tamañoLetra:12px;
+    --titulares: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px
+}
+
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--familia);
+}
+
+body {
+    background-color: var(--grisClaro);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;    
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--primaryAmarillo);
+    padding: 20px 0;
+
+}
+
+header div.logo {
+    padding-left: 30px;
+    width: 130px;
+    margin-bottom: 10px;
+} /* dentro de header hay un elemento div que tiene una clase logo */
+
+header div.barSearch {
+    margin-left: 20px;
+    width: 180px;
+    margin-bottom: 10px
+}
+
+p {
+    font-size: var(--tamañoLetra);
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header nav ul.top-list {
+font-size: var(--tamañoLetra);
+margin-bottom: 20px;
+}
+
+header nav ul li a {
+    font-size: var(--tamañoLetra);
+}
+
+header div.burguer-menu {
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: white;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px auto auto;
+}
+
+/* SECCIONES */
+
+main section.section__products {
+    background-color: white;
+    border:10px solid var(--grisClaro);
+    
+}
+main section.section__offers {
+    background-color: white;
+    border:10px solid var(--grisClaro);
+    padding-bottom: 10px;
+}
+
+/* PRODUCTOS */
+
+/* FOOTER */
+
+footer {
+    padding: 50px 10px 10px;
+    background-color: white;
+}
+
+footer article {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+footer article div.icons {
+    color: var(--celeste);
+    font-size: 2em;
+}
+
+footer span {
+    font-size: var(--tamañoLetra);
+}
